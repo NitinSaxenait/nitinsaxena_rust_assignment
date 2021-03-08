@@ -7,7 +7,7 @@ pub use crate::student_score::{Score, StudentInformation};
 
 #[test]
 // test cases for addition
-fn complex_number_addition() {
+fn test_complex_number_addition() {
     let complex_no_sample1 = ComplexNumbers {
         real_number1: 5,
         real_number2: 7,
@@ -20,7 +20,7 @@ fn complex_number_addition() {
 
 // test cases for subtraction
 #[test]
-fn complex_number_subtraction() {
+fn test_complex_number_subtraction() {
     let complex_no_sample1 = ComplexNumbers {
         real_number1: 5,
         real_number2: 7,
@@ -32,9 +32,8 @@ fn complex_number_subtraction() {
 }
 
 // test cases for multiplication
-//
 #[test]
-fn complex_number_multiply() {
+fn test_complex_number_multiply() {
     let complex_no_sample1 = ComplexNumbers {
         real_number1: 5,
         real_number2: 7,
@@ -47,7 +46,7 @@ fn complex_number_multiply() {
 
 // test cases for new_student
 #[test]
-fn new_student() {
+fn test_new_student() {
     let student_data = Score {
         hindi: 75,
         english: 68,
@@ -67,7 +66,7 @@ fn new_student() {
 
 // test cases for get_average
 #[test]
-fn get_average() {
+fn test_get_average() {
     let student_marks = Score {
         hindi: 43,
         english: 50,
@@ -80,7 +79,7 @@ fn get_average() {
 
 // test cases for pass_student
 #[test]
-fn pass_student() {
+fn test_pass_student() {
     let student1_marks = Score {
         hindi: 32,
         english: 31,
